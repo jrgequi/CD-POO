@@ -1,6 +1,23 @@
-package exercise16;
+package com.campusdual.exercise16;
 
 public class Animal {
+
+    /* Animal
+ Mamífero
+   Perro   ->   Balto
+   Caballo ->   Spirit
+ Ave
+    Halcón ->   ???
+    Pollo  ->   Calimero
+ Pez
+    Delfín ->   Flipper
+    Orca   ->   Willy
+
+Animal -> Altura / Peso / Edad
+ Mamífero, Ave, Pez -> Características únicas de estos animales ->  Habitat + 2 características
+ Perro, Caballo, Halcón, Pollo, Delfín, Orca -> Nombre cientifico, Nombre del animal, Territorio donde viven, Sonido del animal
+
+Presentarse -> ONOMATOPEYA DEL SONIDO ("NOMBRE DEL ANIMAL")*/
 
     protected int altura;
     protected int peso;
@@ -35,6 +52,7 @@ public class Animal {
     public void setEdad(int edad) {
         this.edad = edad;
     }
-    
+
+
 }
 
