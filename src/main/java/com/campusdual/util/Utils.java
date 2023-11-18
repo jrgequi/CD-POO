@@ -362,16 +362,20 @@ public class Utils {
     }
 
     public static void mostrarSaludoConUtil() {
-        String nombreUsuario = Utils.string("Introduce tu nombre")
-        System.out.println("hola" + nombreUsuario + "! Como estás?";
+        String nombreUsuario = Utils.string("Introduce tu nombre");
+        System.out.println("hola" + nombreUsuario + "! Como estás?");
     }
 
-    public static void pedirNumeroConUtils(){
-        int numeroParaMostrar:
+  /*/  public static void pedirNumeroConUtils(){
+        int numeroParaMostrar;:
         do {
-            numeroParaMostrar= Utils.integer("Introduce un número mayor que 5")
+            numeroParaMostrar= Utils.integer("Introduce un número mayor que 5");
         }
-    }
+    }/*/
+
+
+
+
 }
 
 
